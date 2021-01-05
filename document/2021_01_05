@@ -1,1 +1,19 @@
+Hey! There?
+-> Ayush this side.
+-> So, let's brief about what i've learned today. (Writing this would help me to recall in various  time being)
 
+GIT - Just not a word but a whole technical industry is depend on this to share, to learn or to copy...in short it is capable of everything.
+
+-> Distributed version Control system (where complete codebase - including its full version history - is mirrored on every developer's computer)
+                                      (Changes to  files are tracked between computers)
+
+-> It gets used in various platform like Github(most famous), Gitlab(not so famous), Bitbucket(It really is famous) and many more.
+
+Two main keywords or things that reflects GIT is :
+
+1. Repository : A collection of files.
+2. Branch or Trunk : If you want to work on two project simulatneously for example : you've one application of version 1.0 now you want to update it then what you will do is you will 
+                     a branch and start working on that let named it as version 1.1 (this means you can able to work with version 1.0 and version 1.1 simulataneously) and once you are 
+                     done with your work you can push and merge it. Main merits of this is if your version 1.1 doesn't work properly then you can shift to version 1.0 and make it more 
+                     efficient than version 1.1 . 
+                     

@@ -38,3 +38,27 @@ Step 3 : Cloning project in local machine
          3.1 -> Make a folder on yout machine and run git bash
          3.2 -> Create a directory using command : mkdir *name_of_your_project*
          3.3 -> Clone your reporitary using ssh key : git clone *ssh key*
+         3.4 -> You will see all the folders and files present in this repositry will get copied to your local computer.
+         
+Step 4 : GIT Commands
+
+-> We will go through various commands and about their working.
+
+1. git remote -v -> Manage the set of repositories whose branches you track.
+
+we can also write -> git remote --verbose
+
+2. git fetch origin ->  It will fetch latest version or a latest change you've made in any files or folders.
+
+3. git pull : It grabs any changes from Github and merges it into your local computer.
+
+4. git push : It will update github if you change anything in your local computer.
+
+5. git merge : It combines the branches.
+
+
+That's all for toady.
+
+Thank you for reading! and I definitely have learned alot today.
+
+Spread Learning. ^_^

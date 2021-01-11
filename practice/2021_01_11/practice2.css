@@ -1,0 +1,48 @@
+.heading{
+  text-align: center;
+}
+
+.box{
+  align-items: center;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.box .picture{
+  padding: 15% 10% 0;
+}
+
+.box .picture img{
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 60%;
+  max-width: 40%;
+}
+
+.box figcaption{
+  padding: 5% 10% 15%;
+}
+
+.box h1{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 3px 0;
+}
+
+.box h2{
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}

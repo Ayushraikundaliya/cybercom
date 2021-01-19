@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		td input{
+			width: 600px;
+		}
+		select{
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+
+	<form id="information" method="POST">
+		<fieldset>
+			<table>
+				<h1>Personal Information</h1>
+				<tr>
+					<td><label for="fname">First Name: </label></td>
+					<td><input type="text" name="fname" id="fname" required></td>
+				</tr>
+				<tr>
+					<td><label for="lname">Last Name: </label></td>
+					<td><input type="text" name="lname" id="lname"></td>
+				</tr>
+				<tr>
+					<td>
+						<label for="dob" id="dob">Date of Birth: </label>
+					</td>
+					<td>
+						<span>
+							<select name="month" required>
+							<option value="">Month</option>
+		        			<option value="01">January</option>
+		        			<option value="02">February</option>
+		        			<option value="03">March</option>
+		        			<option value="04">April</option>
+		        			<option value="05">May</option>
+		        			<option value="06">June</option>
+		        			<option value="07">July</option>
+		        			<option value="08">August</option>
+		        			<option value="09">September</option>
+		        			<option value="10">October</option>
+		        			<option value="11">November</option>
+		        			<option value="12">December</option>
+		    			 	</select> 
+						</span>
+						<span>
+							<select name="day" required>
+							<option value="">Day</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+							</select>
+						</span>
+						<span>
+							<select name="year" required>
+							<option value="">Year</option>
+							<option value="2020">2020</option>
+							<option value="2019">2019</option>
+							<option value="2018">2018</option>
+							<option value="2017">2017</option>
+							<option value="2016">2016</option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+							<option value="2007">2007</option>
+							<option value="2006">2006</option>
+							<option value="2005">2005</option>
+							<option value="2004">2004</option>
+							<option value="2003">2003</option>
+							<option value="2002">2002</option>
+							<option value="2001">2001</option>
+							<option value="2000">2000</option>
+							</select>
+						</span>
+					</td>
+				</tr>
+
+				<tr>
+					<td><label for="gender">Gender: </label></td>
+					<td>
+						<span>
+							<select name="gender" >
+							<option>Choose a gender</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							</select>
+						</span>
+					</td>
+				</tr>
+
+				<tr><td><h1>Account Information</h1></td></tr>
+
+				<tr>
+					<td><label for="email">Email: </label></td>
+					<td><input type="email" name="email" id="email" required=""></td>
+				</tr>
+				<tr>
+					<td><label for="reemail">Re-type Email: </label></td>
+					<td><input type="email" name="reemail"></td>
+				</tr>
+				<tr>
+					<td><label for="pwd">Password: </label></td>
+					<td><input type="password" name="pwd" minlength="8" maxlength="20" required></td>
+				</tr>
+				<tr>
+					<td><label for="repwd">Re-type Password: </label></td>
+					<td><input type="password" name="repwd" minlength="8" maxlength="20"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="security">Security Question: </label></td>
+					<td>
+						<span>
+							<select name="security">
+							<option>Choose a Security Question: </option>
+							<option value="001">Your First Mobile Number?</option>
+							<option value="002">Your Favourite Pet?</option>
+							<option value="003">Your Sibling's Name?</option>
+							</select>
+						</span>
+					</td>
+
+					<tr>
+						<td><label for="security-answer">Security Answer: </label></td>
+						<td><input type="text" name="security-answer"></td>
+					</tr>
+
+					<tr><td><h1>Contact Information</h1></td></tr>
+
+					<tr>
+						<td><label for="address">Address: </label></td>
+						<td><input type="text" name="address" id="address"></td>
+					</tr>
+					<tr>
+						<td><label for="city">City: </label></td>
+						<td><input type="text" name="city" id="city"></td>
+					</tr>
+					<tr>
+						<td><label for="state">State: </label></td>
+						<td>
+							<span>
+								<select name="state">
+								<option>Choose a State</option>
+								<option value="Andhra Pradesh">Andhra Pradesh</option>
+								<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+								<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+								<option value="Assam">Assam</option>
+								<option value="Bihar">Bihar</option>
+								<option value="Chandigarh">Chandigarh</option>
+								<option value="Chhattisgarh">Chhattisgarh</option>
+								<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+								<option value="Daman and Diu">Daman and Diu</option>
+								<option value="Delhi">Delhi</option>
+								<option value="Lakshadweep">Lakshadweep</option>
+								<option value="Puducherry">Puducherry</option>
+								<option value="Goa">Goa</option>
+								<option value="Gujarat">Gujarat</option>
+								<option value="Haryana">Haryana</option>
+								<option value="Himachal Pradesh">Himachal Pradesh</option>
+								<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+								<option value="Jharkhand">Jharkhand</option>
+								<option value="Karnataka">Karnataka</option>
+								<option value="Kerala">Kerala</option>
+								<option value="Madhya Pradesh">Madhya Pradesh</option>
+								<option value="Maharashtra">Maharashtra</option>
+								<option value="Manipur">Manipur</option>
+								<option value="Meghalaya">Meghalaya</option>
+								<option value="Mizoram">Mizoram</option>
+								<option value="Nagaland">Nagaland</option>
+								<option value="Odisha">Odisha</option>
+								<option value="Punjab">Punjab</option>
+								<option value="Rajasthan">Rajasthan</option>
+								<option value="Sikkim">Sikkim</option>
+								<option value="Tamil Nadu">Tamil Nadu</option>
+								<option value="Telangana">Telangana</option>
+								<option value="Tripura">Tripura</option>
+								<option value="Uttar Pradesh">Uttar Pradesh</option>
+								<option value="Uttarakhand">Uttarakhand</option>
+								<option value="West Bengal">West Bengal</option>
+								</select>
+							</span>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label for="pin">Zip Code: </label></td>
+						<td><input type="number" name="pin" id="pin"></td>
+					</tr>
+					<tr>
+						<td><label for="phone">Phone: </label></td>
+						<td><input type="number" name="phone" id="phone" required></td>
+
+						<td>
+							<span>
+								<select name="mobile">
+								<option>Mobile</option>
+								<option>Phone</option>
+								</select>
+							</span>
+						</td>
+					</tr>
+			</table>
+		</fieldset>
+		<input onclick="store()" type="submit" value="Submit">
+	
+
+		<input type="reset" value="Reset">
+	</form>
+
+	<script>
+		function store(){
+			var fname= document.getElementById("fname");
+			localStorage.setItem("fname", fname.value);
+
+			var lname= document.getElementById("lname");
+			localStorage.setItem("lname", lname.value);
+
+
+			var email= document.getElementById("email");
+			localStorage.setItem("email", email.value);
+
+			var address= document.getElementById("address");
+			localStorage.setItem("address", address.value);
+
+			var city= document.getElementById("city");
+			localStorage.setItem("city", city.value);
+
+			var pin= document.getElementById("pin");
+			localStorage.setItem("pin", pin.value);
+
+			var phone= document.getElementById("phone");
+			localStorage.setItem("phone", phone.value);
+
+			document.write(window.localStorage.getItem('fname'));
+			document.write("\n");
+			document.write(window.localStorage.getItem('lname'));
+			document.write("\n");
+			document.write(window.localStorage.getItem('email'));
+			document.write("\n");
+			document.write(window.localStorage.getItem('address'));
+			document.write("\n");
+			document.write(window.localStorage.getItem('city'));
+			document.write("\n");
+			document.write(window.localStorage.getItem('pin'));
+			document.write("\n");
+			document.write(window.localStorage.getItem('phone'));
+		}
+	</script>
+
+
+
+</body>
+</html>

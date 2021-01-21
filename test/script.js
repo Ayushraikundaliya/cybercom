@@ -98,6 +98,5 @@ function adduser()
           document.write('</tr>');
         }
       }
-      document.write('</table>'); 
-	
+      document.write('</table>'); 	
 }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style>
+    .sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+.sidenav p{
+  color: white;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+.contains {
+
+    background-color: orange;  
+    height: 100px;
+    width: 300px;
+    text-align: center;
+  }
+
+  
+.contains p{
+  color: white;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+
+  <p>Hello</p>
+
+    <div class="sidenav">
+      <p>Hello</p>
+      <p id="user"></p>
+      <a href="#">Dashboard</a>
+      <a href="#">Users</a>
+      <a href="#">Login Sessions</a>
+      <a href="#">Logout</a>
+    </div>
+
+    <div class="main">
+      <p style="color: black;">Add User</p>
+      <form>
+        <table>
+          <tr>
+            <td><input type="name" name="name" id="name" placeholder="name"></td>
+            <td><input type="email" name="email" id="email" placeholder="email"></td>
+            <td><input type="password" name="password" id="password" placeholder="password"></td>
+            <td><input type="date" name="birth" id="birth" placeholder="Birthday"></td>
+          </tr>
+
+          <tr>
+            <td><button type="button" name="submit">Add User</button>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+
+
+</body>
+</html>

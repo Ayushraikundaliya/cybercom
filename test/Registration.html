@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<style>
+		
+		form {
+  			display: flex;
+  			flex-direction: column;
+ 			margin: 8px auto;
+  			width: 15%;
+		}
+
+		table tr,td{
+			padding-bottom: 10px;
+		}
+
+		fieldset{
+			text-align: center;
+		}
+
+		button{
+			background-color: black;
+			color: red;
+			width: 162px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<form>
+		<fieldset>
+			<table>
+				<h1>Registration</h1>
+
+				<tr>
+					<td><input type="text" name="name" id="name" placeholder="Name" required></td>
+				</tr>
+
+				<tr>
+					<td><input type="email" name="email" id="email" placeholder="Email" required></td>
+				</tr>
+
+
+				<tr>
+					<td><input type="password" name="password" id="password" placeholder="Password" required></td>
+				</tr>
+
+				<tr>
+					<td><input type="password" name="password" id="password" placeholder="Confirm-Password" required></td>
+				</tr>
+
+				<tr>
+					<td>
+						<span>
+							<select name="city" id="city" style="width: 164px;" required>
+								<option>City</option>
+								<option value="ahmedabad">Ahmedabad</option>
+								<option value="rajkot">Rajkot</option>
+								<option value="surat">Surat</option>
+								<option value="baroda">Baroda</option>
+							</select>
+						</span>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<span>
+							<select name="state" id="state" style="width: 164px;" required>
+								<option>State</option>
+								<option value="Gujarat">Gujarat</option>
+							</select>
+						</span>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="checkbox" required>
+						<label>* Terms and Conditions</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><button type="submit" name="submit">REGISTER NOW</button></td>
+				</tr>
+
+				
+			</table>
+		</fieldset>
+	</form>
+
+</body>
+</html>

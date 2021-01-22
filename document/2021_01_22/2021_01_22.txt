@@ -1,0 +1,40 @@
+Hey! there?
+-> Ayush this side .. 
+
+PHP
+ 
+-> Stands for Hypertext pre-preocessor.
+-> It is a server side scripting language.
+-> Extension, '.php'.
+
+
+Things to remember : 
+
+
+#Embedding PHP inside HTML " 
+
+<?php
+$text = "Ayush";
+?>
+
+<p><?php echo $text; ?></p>
+
+-> Output : Ayush
+
+
+#How to declare an variable :  $variable_name = value;
+
+
+Rest all are same as other coding language,
+if-else
+if-else if
+for loop
+while loop
+do-while loop
+switch statement
+
+
+That's all for today
+
+Thank You.
+Spread Learning ^_^

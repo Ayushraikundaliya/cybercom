@@ -1,0 +1,200 @@
+Hey! there?
+-> Ayush this side ...
+
+
+#die and exit 
+
+-> To stop the execution.
+-> They are identical.
+
+
+#Expression Matching
+
+-> To check that the string contain the particular pattern or not.
+
+Example : 1
+
+<?php
+
+$a = "My name is Ayush";
+
+if(preg_match('/name/',$a)){
+	echo "Match Found";
+}
+else{
+	echo "Not Found";
+}
+
+?>
+
+Output : Match Found
+--------------------------------------
+
+Example : 2
+
+<?php
+
+$a = "My name is Ayush";
+
+if(preg_match('/ush/',$a)){
+	echo "Match Found";
+}
+else{
+	echo "Not Found";
+}
+
+?>
+
+Output : Match Found
+-------------------------------------
+
+Example : 3
+
+<?php
+
+$a = "My name is Ayush";
+
+if(preg_match('/ayu/',$a)){
+	echo "Match Found";
+}
+else{
+	echo "Not Found";
+}
+
+?>
+
+Output :Not Found
+------------------------------------
+
+Example : 4
+
+<?php
+
+$a = "My name is Ayush";
+
+if(preg_match('/ae/',$a)){
+	echo "Match Found";
+}
+else{
+	echo "Not Found";
+}
+
+?>
+
+Output : Not Found
+-------------------------------------
+
+Example : 5
+
+<?php
+
+$a = "My name is Ayush";
+
+if(preg_match('/ /',$a)){
+	echo "Match Found";
+}
+else{
+	echo "Not Found";
+}
+
+?>
+
+Output : Match Found
+--------------------------------------
+
+Example : 6
+
+<?php
+
+$a = "My name is Ayush";
+
+if(preg_match('/name i/',$a)){
+	echo "Match Found";
+}
+else{
+	echo "Not Found";
+}
+
+?>
+
+Output : Match Found
+---------------------------------------
+
+Conclusion :
+
+1. preg_match() - only return 0(false) or 1(true).
+2. It is case sensitive.
+3. If there would substring matching your pattern then it will return true(Example 2).
+4. It will return true is case of space as well.
+
+----------------------------------------------------
+
+#functions
+
+Syntax:
+
+function function_name(){
+	body;
+}
+
+Example : 1
+
+function a(){
+	echo "Hi";
+}
+a();
+
+Output : Hi
+---------------------------------
+
+Example : 2
+
+$a = 10;
+
+function a(){
+	echo $a;
+}
+
+a();
+
+Output : Undefined
+-------------------------------------
+
+Example : 3
+
+$a = 10;
+
+function a(){
+	global $a;
+	echo $a;
+}
+
+a();
+
+Output : 10
+------------------------------------
+
+Example : 4
+
+$a = 10;
+
+function a(){
+	echo $a;
+}
+
+a();
+A();
+Output : 1010
+--------------------------------------
+
+Conclusion : 
+
+1. To access global variable we need to use global keyword insite the function(Example 3).
+2. Function name would be case sensitive(Example 4).
+
+
+
+That's all for today ..
+
+Thank you
+Spread Learning ^_^

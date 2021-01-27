@@ -1,0 +1,47 @@
+Hello there?
+-> Ayush this side ... 
+
+
+
+#Arrays
+
+$num = array(1,2,3,4,5);
+
+Here, index will start from 0.
+
+
+-> Associative array : Manual assign a key to a value.
+
+$num = array('one'=>1,'two'=>2,'three'=>3,'four'=>4,'five'=>5);
+
+Here, index will be the key that's in 'single quote' or before '=>' sign.
+
+
+-> Multi-dimensional array 
+
+$multi = array('odd'=>array(1,3,5),'even'=>array(2,4)); //Multidimensional Array
+
+echo $multi['even'][1]; //output : 4
+
+echo $multi['odd'][2]; //output : 5
+
+
+#For-each 
+
+-> It takes both key and value pair.
+
+
+#include and require 
+
+-> When we want to add html files to php page we use include and require.
+
+-> The only one difference between these two is that when there is error in accessing html file then,
+	-> In include rest all commands will executed and showed as output.
+	-> In require it will only show error.
+
+
+
+That's all for today ..
+
+Thank You.
+Spread Learning ^_^

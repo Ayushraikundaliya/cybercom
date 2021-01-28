@@ -1,0 +1,28 @@
+Hey! There?
+-> Ayush this side ...
+
+
+#String Replace 
+-> str_ireplace() - ignores case.
+
+#date and time
+-> time - time();
+-> date - date('format',$time);
+
+#random
+-> rand() - To generate random no.
+
+#Script name
+-> $_SERVER['SCRIPT_NAME'];
+
+#Host name
+-> $_SERVER['HTTP_HOST'];
+
+#Redirect
+-> header ('location: link');
+
+
+That's all for today.
+
+Thank You.
+Spread Leearning ^_^

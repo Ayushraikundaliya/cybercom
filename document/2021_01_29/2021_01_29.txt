@@ -1,0 +1,44 @@
+Hey! There?
+-> Ayush this side ...
+
+
+#To fetch remote ip address
+
+*First way (Not more preferable)
+-> $_SERVER['REMOTE_ADDR'];
+
+*Second way
+-> $_SERVER['HTTP_CLIENT_IP'];
+
+*Third way
+-> $_SERVER['HTTP_X_FORWADED_FOR'];
+
+
+#GET and POST Method
+-> GET - The value get posted on the url with variable name.
+-> POST - No one can able to get the value (specially used in password)
+
+
+#htmlentities 
+-> User won't be able to use any html tag inside the form.
+
+
+#Sessions
+
+-> To start a session : session_start();
+-> To store value in a session : $_SESSION['name'] = 'Ayush';
+-> To unset a specific session : unset($_SESSION['name']);
+-> To unset all the sessions : session_destroy();
+
+
+#Cookie
+
+-> To set a cookie : setcookie('username','Ayush',time()+20);
+-> To unset a cookie : setcookie('username','Ayush',time()-20);
+-> To print cookie : echo $_COOKIE['username'];
+
+
+That's all for today ...
+
+Thank You.
+Spread Learning ^_^

@@ -3,8 +3,8 @@
 $name = "";
 $email = "";
 $gender = "";
-$Nameerr = "";
-$Gendererr = "";
+$nameerr = "";
+$gendererr = "";
 $emailerr = "";
 
 if($_SERVER["REQUEST_METHOD"] == "POST")
@@ -14,7 +14,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 		$name = $_POST['name'];
 	}
 	else{
-		$Nameerr = "Name is required";
+		$nameerr = "Name is required";
 	}
 
 	if(!empty($_POST['email']))
@@ -29,7 +29,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 		$gender = $_POST['gender'];
 	}
 	else{
-		$Gendererr = "Gender is required";
+		$gendererr = "Gender is required";
 	}
 
 	$course = $_POST['course'];
@@ -59,7 +59,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 			<tr>
 				<td>Name:</td>
 				<td><input type="text" name="name">
-					<span class="error">* <?php echo $Nameerr; ?></span>
+					<span class="error">* <?php echo $nameerr; ?></span>
 				</td>
 			</tr>
 			<tr>
@@ -81,7 +81,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 				<td>
 					<input type="radio" name="gender" value="Female">Female
 					<input type="radio" name="gender" value="Male">Male
-					<span class="error">* <?php echo $Gendererr;  ?></span>
+					<span class="error">* <?php echo $gendererr;  ?></span>
 				</td>
 			</tr>
 			<tr>

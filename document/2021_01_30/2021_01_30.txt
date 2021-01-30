@@ -1,0 +1,46 @@
+Hey! There?
+-> Ayush this side ...
+
+
+#Files
+
+-> To open a file : $file = fopen('fine_name','w/r/a');
+
+w : writing
+r : reading
+a : append
+
+-> Writing a file : fwrite($file,'Your message'); 
+	-> The Message will get overwrite when you add new value so you can add your message only once.
+
+-> To close a file : fclose($file);
+
+-> Reading a file : $readin = file('file_name');
+
+-> Append in file : fopen('file_name','a');
+
+-> To remove any delimeter : explode('delimeter',string);
+
+-> To add any delimeter : implode('delimeter',string);
+
+-> To open a directory : $file = opendir('directory_name','/');
+
+-> To read a directory : readdir($file);
+
+-> To create a file : $file = fopen("file_name","w");
+		      fopen($file,'Your message');
+		      fclose($file);
+
+-> To Check if file exists or not : file_exists('file_name');
+
+-> To rename a file : rename('file_name','new_name');
+
+-> To delete a file : unlink('file_name');
+
+-> To move a Uploaded File : move_uploaded_file('file_name','location');
+
+
+That's all for today ...
+
+Thank You
+Spread Learning ^_^

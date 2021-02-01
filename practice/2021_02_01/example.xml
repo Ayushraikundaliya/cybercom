@@ -1,0 +1,25 @@
+<producers>
+
+	<producer>
+
+		<name>Ayush</name>
+		<age>22</age>
+
+	</producer>
+
+	<producer>
+
+		<name>Nidhi</name>
+		<age>20</age>
+
+	</producer>
+
+	<producer>
+
+		<name>Mahi</name>
+		<age>12</age>
+
+	</producer>
+
+
+</producers>

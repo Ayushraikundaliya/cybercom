@@ -1,0 +1,68 @@
+Hey! There?
+-> Ayush this side ...
+
+#Files
+
+-> To Upload a file : move_uploaded_file('filelocation','destination');
+
+#MD5
+
+-> File encyption 
+-> Generate MD5 hash from a string.
+-> Syntan : md5('Your message');
+
+
+#XML
+
+-> Extensible Markup Language
+-> To load xml file : $xml = simplexml_load_file('filename');
+
+Xml file :
+
+<producers>
+
+	<producer>
+
+		<name>Ayush</name>
+		<age>22</age>
+
+	</producer>
+
+	<producer>
+
+		<name>Nidhi</name>
+		<age>20</age>
+
+	</producer>
+
+	<producer>
+
+		<name>Mahi</name>
+		<age>12</age>
+
+	</producer>
+
+
+</producers>
+
+
+To access it thorugh php :
+
+<?php
+
+$xml = simplexml_load_file('example.xml');
+
+foreach ($xml->producer as $producer) {
+	echo $producer->name.' '.$producer->age.'<br>';
+}
+
+?>
+
+
+
+That's all for today ...
+
+Thank you
+Spread Learning ^_^
+
+

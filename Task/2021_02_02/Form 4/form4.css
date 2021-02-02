@@ -1,0 +1,22 @@
+.header{
+	background-color: orange;
+	width: 25%;
+	text-align: center;
+	color: white;
+	height: 20px;
+}
+.body{
+	background-color: pink;
+	width: 18.4%;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+.footer{
+	width: 25%;
+	text-align: center;
+}
+.button{
+	background-color: yellow;
+	font-size: 25px;
+	width: 100%
+}

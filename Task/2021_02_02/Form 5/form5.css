@@ -1,0 +1,21 @@
+.header td{
+	background-color: red;
+	width: 350px;
+	text-align: center;
+	color: white;
+	height: 30px;
+}
+.body{
+	width: 18.4%;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+.footer{
+	width: 25%;
+	text-align: center;
+}
+.button{
+	background-color: lightgreen;
+	
+	
+}

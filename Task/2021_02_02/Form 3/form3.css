@@ -1,0 +1,17 @@
+.header{
+	background-color: orange;
+	width: 50%;
+	color: green;
+	padding-bottom: 10px;
+}
+
+.body{
+	background-color: darkblue;
+	width: 50%;
+	color: yellow;	 
+}
+
+.footer{
+	background-color: orange;
+	width: 50%;
+}

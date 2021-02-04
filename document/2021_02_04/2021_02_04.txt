@@ -1,0 +1,41 @@
+
+Hey! There?
+-> Ayush this side ...
+
+#Database
+
+-> To connect to a MySQL Serve : $con = mysqli_connect("hostname","username","password","dbname");
+
+-> To execute a query : $query_exec = mysqli_query($con,'your_query');
+
+-> To get tables from database as associative array : mysqli_fetch_assoc($query_exec);
+
+-> LEFT JOIN : It returns all the rows from left table, even if there are no matches in the right table.
+	       -> This means that if the ON clause matches 0 records in the right table; the join will still return a row in the result,
+	       -> but with NULL in each column from the right table.
+	       -> select table1.column1,table2.column2...
+		  from table1
+		  left join table2
+		  ON table1.common_field = table2.common_field;
+
+-> RIGHT JOIN : It returns all the rows from right table, even if there are no matches in the left table.
+	       -> This means that if the ON clause matches 0 records in the left table; the join will still return a row in the result,
+	       -> but with NULL in each column from the left table.
+	       -> select table1.column1,table2.column2...
+		  from table1
+		  right join table2
+		  ON table1.common_field = table2.common_field;
+
+-> LIKE : It is used in a WHERE clause to search for a specified pattern in a column.
+	-> There are two wildcards often used in conjuction with the LIKE operator.
+	  1) % - represents zero,one or multiple characters.
+	  2) _ - represents a single character.
+	-> select column_name from table_name where like %your_string;
+
+-> DISTINCT : It is used to not print the duplicate values.
+
+
+That's all for today ...
+
+Thank You
+Spread Learning ^_^

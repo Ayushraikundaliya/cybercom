@@ -1,0 +1,86 @@
+/* Header File CSS */
+
+.header{
+	overflow: hidden;
+	background-color: #5050DB;
+	padding: 20px 10px;
+}
+
+.header a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.header-right{
+	float: right;
+	padding-right: 30px;
+}
+
+.header-right i{
+	padding-right: 6px;
+}
+
+
+/* Index File CSS */
+
+.body{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* Contacts File CSS */
+
+.contact{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.contact button{
+	background-color: #00e673;
+	color: white;
+	width: 150px;
+	height: 40px;
+}
+
+.tables table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tables{
+	padding-top: 40px;
+}
+
+.tables td,th{
+	border-bottom: 2px solid grey;
+	text-align: left;
+	padding: 8px;
+	font-size: 20px;
+	color: grey;
+}
+
+.tables tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.tables button{
+	background-color: blue;
+}
+
+/* Create File CSS */
+.create{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* Update File CSS */
+
+.updates{
+	padding-left: 50px;
+	padding-right: 50px;
+}

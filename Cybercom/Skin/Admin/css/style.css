@@ -1,0 +1,107 @@
+/*Index.php CSS */
+.body{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/*Header.php CSS */
+.header{
+	overflow: hidden;
+	background-color: #5050DB;
+	padding: 20px 10px;
+}
+
+.header a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.header-right{
+	float: right;
+	padding-right: 30px;
+}
+
+.header-right i{
+	padding-right: 6px;
+}
+
+.ticker{
+	color: white;
+	width: 200px;
+	box-sizing: border-box;
+	height: 25px;
+	overflow: hidden;
+	margin-top: 5px;
+}
+
+.ticker ul{
+	padding: 5px;
+	padding-left: 14px;
+	margin: 0;
+	list-style-type: none;
+	animation-name: ticker;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.ticker ul:hover{
+	animation-play-state: paused;
+}
+
+.ticker ul li{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+@keyframes ticker {
+	0% {margin-top: 0;}
+	25% {margin-top: -30px;}
+	50% {margin-top: -60px;}
+	75% {margin-top: -90px;}
+	100% {margin-top: -120px;}
+}
+
+/*Product.php CSS */
+
+.contact{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.contact button{
+	background-color: #00e673;
+	color: white;
+	width: 150px;
+	height: 40px;
+}
+
+.tables table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tables{
+	padding-top: 40px;
+}
+
+.tables td,th{
+	border-bottom: 2px solid grey;
+	text-align: left;
+	padding: 8px;
+	font-size: 20px;
+	color: grey;
+}
+
+.tables tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.tables button{
+	background-color: blue;
+}
